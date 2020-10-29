@@ -1,0 +1,14 @@
+server:
+  port: 8022
+spring:
+  application:
+    name: rabbitmq-provider2
+  rabbitmq:
+    host: 127.0.0.1
+    port: 5672
+    username: root
+    password: root
+
+    publisher-confirm-type: correlated
+    template:
+      mandatory: true
