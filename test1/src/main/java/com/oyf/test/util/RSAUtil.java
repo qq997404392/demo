@@ -15,7 +15,7 @@ import java.util.Map;
 /**
  * @author ：ouyangfei
  * @date ：Created in 2020/9/28
- * @description：签名与验签
+ * @description：签名与验签（私钥签名，公钥验签）
  */
 @Slf4j
 public class RSAUtil {
