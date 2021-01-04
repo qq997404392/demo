@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.oyf.mysql_aes.repository.TbUserMapper">
+
+    <insert id="insert" parameterType="com.oyf.mysql_aes.entity.TbUser">
+        insert into tb_user
+            (id, name, password)
+        values
+            (#{id},#{name},HEX(AES_ENCRYPT(#{password},'${@com.oyf.test.mysql_aes.common.CommonParams@MYSQL_ENCRYPT_KEY}')))
+    </insert>
+
+    <select id="find" parameterType="String" resultType="com.oyf.mysql_aes.entity.TbUser">
+        select
+            id, name, AES_DECRYPT(UNHEX(`password`),'${@com.oyf.test.mysql_aes.common.CommonParams@MYSQL_ENCRYPT_KEY}') as password
+        from tb_user where id = #{id}
+    </select>
+
+</mapper>
