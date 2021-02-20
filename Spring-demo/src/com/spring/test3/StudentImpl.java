@@ -1,6 +1,5 @@
-package com.spring3;
+package com.spring.test3;
 
-import org.springframework.beans.factory.InitializingBean;
 import org.springframework.dao.DataAccessException;
 import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.transaction.PlatformTransactionManager;

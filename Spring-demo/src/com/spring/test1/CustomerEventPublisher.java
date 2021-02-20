@@ -1,4 +1,4 @@
-package com.spring;
+package com.spring.test1;
 
 import org.springframework.context.ApplicationEventPublisher;
 import org.springframework.context.ApplicationEventPublisherAware;

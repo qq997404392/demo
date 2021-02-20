@@ -6,12 +6,12 @@
        xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop.xsd http://www.springframework.org/schema/tx http://www.springframework.org/schema/tx/spring-tx.xsd">
 
 
-    <!--<bean id="student" class="com.spring2.Student">
+    <!--<bean id="student" class="com.spring.test2.Student">
         <property name="name"  value="weimo" />
         <property name="age"  value="18"/>
     </bean>
 
-    <bean id="logging" class="com.spring2.Logging"/>-->
+    <bean id="logging" class="com.spring.test2.Logging"/>-->
 
 
     <bean id="dataSource"
@@ -30,7 +30,7 @@
 
     <aop:config>
         <aop:pointcut id="createOperation"
-                      expression="execution(* com.spring3.StudentImpl.create(..))"/>
+                      expression="execution(* com.spring.test3.StudentImpl.create(..))"/>
         <aop:advisor advice-ref="txAdvice" pointcut-ref="createOperation"/>
     </aop:config>
 
@@ -40,7 +40,7 @@
     </bean>
 
     <bean id="studentImpl"
-          class="com.spring3.StudentImpl">
+          class="com.spring.test3.StudentImpl">
         <property name="dataSource"  ref="dataSource" />
         <property name="transactionManager" ref="transactionManager" />
     </bean>

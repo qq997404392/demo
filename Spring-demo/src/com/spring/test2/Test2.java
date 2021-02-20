@@ -1,4 +1,4 @@
-package com.spring2;
+package com.spring.test2;
 
 import com.alibaba.fastjson.JSON;
 import com.alibaba.fastjson.JSONObject;

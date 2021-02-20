@@ -1,4 +1,4 @@
-package com.spring3;
+package com.spring.test3;
 
 import javax.sql.DataSource;
 import java.util.List;

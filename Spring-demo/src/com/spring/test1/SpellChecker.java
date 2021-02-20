@@ -1,4 +1,4 @@
-package com.spring;
+package com.spring.test1;
 
 public class SpellChecker {
     public SpellChecker() {

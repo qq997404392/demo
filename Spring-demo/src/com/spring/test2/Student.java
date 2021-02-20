@@ -1,4 +1,4 @@
-package com.spring2;
+package com.spring.test2;
 
 public class Student {
     private Integer age;

@@ -22,8 +22,12 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="ProjectId" id="1PixNM0HiuwKsrAfmJtxxEZrvyR" />
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -58,25 +62,12 @@
     </option>
   </component>
   <component name="RunManager" selected="Application.MainApp (2)">
-    <configuration name="MainApp (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.spring2.MainApp" />
+    <configuration name="MainApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.spring.test2.MainApp" />
       <module name="Spring-demo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.spring2.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MainApp (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.spring3.MainApp" />
-      <module name="Spring-demo" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.spring3.*" />
+          <option name="PATTERN" value="com.spring.test2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -85,11 +76,24 @@
       </method>
     </configuration>
     <configuration name="MainApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.spring.MainApp" />
+      <option name="MAIN_CLASS_NAME" value="com.spring.test3.MainApp" />
       <module name="Spring-demo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.spring.*" />
+          <option name="PATTERN" value="com.spring.test3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MainApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.spring.test1.MainApp" />
+      <module name="Spring-demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.spring.test1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -98,11 +102,11 @@
       </method>
     </configuration>
     <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.spring2.Test" />
+      <option name="MAIN_CLASS_NAME" value="com.spring.test2.Test" />
       <module name="Spring-demo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.spring2.*" />
+          <option name="PATTERN" value="com.spring.test2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -111,11 +115,11 @@
       </method>
     </configuration>
     <configuration name="Test2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.spring2.Test2" />
+      <option name="MAIN_CLASS_NAME" value="com.spring.test2.Test2" />
       <module name="Spring-demo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.spring2.*" />
+          <option name="PATTERN" value="com.spring.test2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>

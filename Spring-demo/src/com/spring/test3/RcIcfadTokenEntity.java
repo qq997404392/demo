@@ -1,4 +1,4 @@
-package com.spring3;
+package com.spring.test3;
 
 /**
  * 权益中心用户认证

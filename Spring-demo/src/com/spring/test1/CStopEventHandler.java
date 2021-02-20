@@ -1,4 +1,4 @@
-package com.spring;
+package com.spring.test1;
 
 import org.springframework.context.ApplicationListener;
 import org.springframework.context.event.ContextStoppedEvent;

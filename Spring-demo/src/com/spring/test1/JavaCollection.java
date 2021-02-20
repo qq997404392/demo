@@ -1,4 +1,4 @@
-package com.spring;
+package com.spring.test1;
 
 import java.util.List;
 import java.util.Map;

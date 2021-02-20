@@ -1,4 +1,4 @@
-package com.spring3;
+package com.spring.test3;
 
 public class StudentMarks {
     private int id;
